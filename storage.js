@@ -19,7 +19,7 @@ class Storage {
   }
 
   isEmpty() {
-    const key = this.storage.getItem('lel')
+    const key = this.storage.getItem(this.key)
     return (!(key !== null && key !== undefined))
   }
 }
